@@ -41,12 +41,6 @@ ul li {
     padding: 0 1rem;
 }
 
-/* .navigation span {
-    display: inline;
-    color: white;
-    padding: 0 1rem;
-} */
-
 .flex {
     display: flex;
 }
@@ -68,4 +62,19 @@ ul li {
 .banner-container.banner {
     justify-content: flex-end;
     margin-right: -2rem;
+}
+
+.service-section {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    display: flex;
+    height: 8rem;
+    width: 5rem;
+    text-align: center;
+    padding: 3rem;
+    flex-direction: column;
+    justify-content: space-between;
 }
