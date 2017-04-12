@@ -22,7 +22,7 @@ div {
 .logo-menu {
     background-color: cadetblue;
     padding: 1rem 2rem;
-    top: 1rem;
+    /*top: 1rem;*/
     color: white;
     display: flex;
     align-items: center;
@@ -113,4 +113,40 @@ ul li {
     padding-bottom: .5rem;
     padding-left: 1.25rem;
     margin-bottom: 1rem;
+}
+
+.foot.container.flex {
+    background-color: azure;
+    align-items: center;
+}
+
+.foot img {
+    padding: 4rem 1rem 4rem 3rem;
+    height: 1.5rem;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .container {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .banner-section {
+        height: 22rem;
+        background-image: url("../images/glasses-bg.png");
+        background-size: cover;
+        padding-top: 0;
+    }
+
+    .banner {
+        margin-top: 5rem;
+        display: inline-block; 
+        padding: .75rem 4rem;
+        background-color: white;
+        font-weight: bold;
+        font-size: 1.33rem;
+        margin-right: 2rem;
+    }
+
 }
