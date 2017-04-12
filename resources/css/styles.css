@@ -3,6 +3,10 @@ body {
     display: block;
 }
 
+div {
+    display: block;
+}
+
 .container {
     max-width: 960px;
     margin: auto;
@@ -71,10 +75,42 @@ ul li {
 
 .service {
     display: flex;
-    height: 8rem;
     width: 5rem;
     text-align: center;
-    padding: 3rem;
+    margin: 3rem;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+}
+
+.service img {
+    width: 5rem;
+    margin-bottom: 1rem;
+}
+
+.service img.paper-icon {
+    width: 3.5rem;
+}
+
+.info.container.flex {
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+}
+
+.info-container {
+    width: 35%;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.info-title {
+    color: white;
+    background-color: cadetblue;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.25rem;
+    margin-bottom: 1rem;
 }
