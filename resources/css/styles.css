@@ -122,6 +122,7 @@ div {
 .foot.container.flex {
     background-color: azure;
     align-items: center;
+    /*justify-content: center;*/
 }
 
 .foot img {
@@ -155,7 +156,7 @@ div {
 
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
 
     .logo span {
         display: none;
@@ -169,6 +170,73 @@ div {
     .shortMenu {
         display: inline;
         padding: 0 1rem;
+    }
+
+    .banner-section {
+        height: 17rem;
+        background-image: url("../images/glasses-bg.png");
+        background-size: cover;
+        background-position: 20%;
+        padding-top: 0;
+    }
+
+    .banner {
+        margin-top: 9rem;
+        display: inline-block; 
+        padding: 1rem 0;
+        background-color: white;
+        font-weight: bold;
+        font-size: 1rem;
+        width: 100%;
+        /*margin-right: 2rem;*/
+    }
+
+    .service-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info.container.flex {
+        justify-content: flex-start;
+        margin-bottom: 4rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-container {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    .info-title {
+        color: white;
+        background-color: cadetblue;
+        width: 100%;
+        font-weight: bold;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: .5rem;
+        padding-left: 1.25rem;
+        padding-right: .5rem;
+        margin-bottom: 1rem;
+    }
+
+    .info-container p {
+        font-size: 0.77rem;
+        padding-right: 0.5rem;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .foot.container.flex {
+        background-color: azure;
+        align-items: center;
+        justify-content: center;
     }
 
 }
