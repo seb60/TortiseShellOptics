@@ -22,7 +22,6 @@ div {
 .logo-menu {
     background-color: cadetblue;
     padding: 1rem 2rem;
-    /*top: 1rem;*/
     color: white;
     display: flex;
     align-items: center;
@@ -40,8 +39,13 @@ div {
     padding-right: 1rem;
 }
 
-ul li {
+.menu li {
     display: inline;
+    padding: 0 1rem;
+}
+
+.shortMenu {
+    display: none;
     padding: 0 1rem;
 }
 
@@ -147,6 +151,24 @@ ul li {
         font-weight: bold;
         font-size: 1.33rem;
         margin-right: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 650px) {
+
+    .logo span {
+        display: none;
+    }
+
+    .menu li {
+        display: none;
+        padding: 0 1rem;
+    }
+
+    .shortMenu {
+        display: inline;
+        padding: 0 1rem;
     }
 
 }
